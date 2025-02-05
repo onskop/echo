@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echo</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="stylesheet" href="../src/build/schedulerpro.material.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a href="scheduler1.html" class="nav-item active">Scheduler 1</a>
+      <a href="scheduler2.html" class="nav-item">Scheduler 2</a>
+      <a href="scheduler3.html" class="nav-item">Scheduler 3</a>
+      <a href="scheduler4.html" class="nav-item">Scheduler 4</a>
+      <a href="scheduler5.html" class="nav-item">Scheduler 5</a>
+    </nav>
+
+    <div class="control-panel">
+        <div class="controls-container">
+          <div class="button-group">
+            <button id="scheduler1-test-btn-1" class="b-button b-transparent">Pridat zdroj</button>
+            <button id="scheduler1-test-btn-2" class="b-button b-transparent">Events n Resources</button>
+            <button id="scheduler1-test-btn-3" class="b-button b-transparent">Dump schema</button>
+            <button id="scheduler1-test-btn-4" class="b-button b-transparent">Load</button>
+            <button id="scheduler1-test-btn-5" class="b-button b-transparent">Sync</button>
+            <button id="scheduler1-test-btn-6" class="b-button b-transparent">Free</button>
+          </div>
+          <div class="checkbox-group">
+            <label class="switch-label">
+              <input type="checkbox" id="scheduler1-settings-check-1" class="switch-input">
+              <span class="switch-slider"></span>
+              <span class="switch-text" id="scheduler1-mode-label">Mode: Vertical</span>
+            </label>
+            <label class="b-checkbox-label">
+              <input type="checkbox" id="scheduler1-settings-check-2" class="b-checkbox">
+              <span>Option 2</span>
+            </label>
+            <label class="b-checkbox-label">
+              <input type="checkbox" id="scheduler1-settings-check-3" class="b-checkbox">
+              <span>Option 3</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    
+    <div id="app1"></div>
+    <script type="module" src="../src/main1.js"></script>
+  </body>
+</html>

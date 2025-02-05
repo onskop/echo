@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scheduler 2</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="stylesheet" href="../src/build/schedulerpro.material.css">
+  </head>
+  <body>
+    <nav class="main-nav">
+      <a href="scheduler1.html" class="nav-item">Scheduler 1</a>
+      <a href="scheduler2.html" class="nav-item active">Scheduler 2</a>
+      <a href="scheduler3.html" class="nav-item">Scheduler 3</a>
+      <a href="scheduler4.html" class="nav-item">Scheduler 4</a>
+      <a href="scheduler5.html" class="nav-item">Scheduler 5</a>
+    </nav>
+
+    <div class="control-panel">
+        <div class="controls-container">
+            <div class="button-group">
+                <button id="scheduler2-test-btn-1" class="b-button b-transparent">Prodluzuju tlacitko</button>
+                <button id="scheduler2-test-btn-2" class="b-button b-transparent">Test 2</button>
+                <button id="scheduler2-test-btn-3" class="b-button b-transparent">Test 3</button>
+            </div>
+            <div class="checkbox-group">
+            <label class="switch-label">
+                <input type="checkbox" id="scheduler2-settings-check-1" class="switch-input">
+                <span class="switch-slider"></span>
+                <span class="switch-text">Vertical Mode</span>
+            </label>
+            <label class="b-checkbox-label">
+                <input type="checkbox" id="scheduler2-settings-check-2" class="b-checkbox">
+                <span>Settings 2</span>
+            </label>
+            <label class="b-checkbox-label">
+                <input type="checkbox" id="scheduler2-settings-check-3" class="b-checkbox">
+                <span>Settings 3</span>
+            </label>
+            </div>
+        </div>
+        </div>
+    
+    <div id="app2"></div>
+    <script type="module" src="../src/main2.js"></script>
+  </body>
+</html>

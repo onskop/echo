@@ -1,0 +1,50 @@
+.date-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.date-display {
+    width: 100%;
+    padding-right: 30px !important;
+}
+
+.date-native {
+    position: absolute;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.date-picker-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    z-index: 3;
+}
+
+.date-picker-button i {
+    font-size: 14px;
+}
+
+.date-picker-button:hover {
+    color: #949494;
+    background-color: #f0f0f0;
+}
+
+.date-display.invalid {
+    border-color: #ff4444;
+    background-color: #fff0f0;
+}
